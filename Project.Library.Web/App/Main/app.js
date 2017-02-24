@@ -44,6 +44,13 @@
                     templateUrl: '/App/Main/views/home/home.cshtml',
                     menu: 'Home' //Matches to name of 'Home' menu in LibraryNavigationProvider
                 })
+                .state("authors",
+                {
+                    url: '/authors',
+                    templateUrl: '/App/Main/viws/authors/index.cshtml',
+                    menu: 'Authors' 
+
+                })
                 .state('about', {
                     url: '/about',
                     templateUrl: '/App/Main/views/about/about.cshtml',

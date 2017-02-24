@@ -1,0 +1,1141 @@
+DEBUG 2017-02-24 18:26:33,988 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 18:26:34,007 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 18:26:34,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:34,083 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 18:26:34,332 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:26:34,332 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:26:34,332 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:26:34,332 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:26:34,809 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:26:36,615 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 18:26:36,627 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 18:26:36,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 18:26:36,632 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 18:26:36,634 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 18:26:36,784 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 18:26:36,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 18:26:36,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 18:26:36,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 18:26:36,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 18:26:36,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 18:26:36,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 18:26:36,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 18:26:36,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 18:26:36,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 18:26:38,951 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 18:26:38,953 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 18:26:38,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 18:26:38,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-02-24 18:26:51,204 [12   ] Abp.Logging.LogHelper                    - Can not find 'Authirs' in localization source 'Library'!
+DEBUG 2017-02-24 18:26:52,006 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"607176df-49ba-4c9c-9efb-101899f051a5","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T18:26:51.9963945-03:00","Properties":{}}
+DEBUG 2017-02-24 18:26:52,068 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 607176df-49ba-4c9c-9efb-101899f051a5
+DEBUG 2017-02-24 18:27:25,996 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 18:27:26,010 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 18:27:26,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:26,021 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 18:27:26,260 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:27:26,260 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:27:26,260 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:27:26,260 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 18:27:26,695 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 18:27:28,478 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 18:27:28,487 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 18:27:28,489 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 18:27:28,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 18:27:28,494 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 18:27:28,618 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 18:27:28,689 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 18:27:28,689 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 18:27:28,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 18:27:28,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 18:27:28,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 18:27:28,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 18:27:28,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 18:27:28,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 18:27:28,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 18:27:30,878 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 18:27:30,879 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 18:27:30,880 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 18:27:30,881 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 18:27:31,592 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"607176df-49ba-4c9c-9efb-101899f051a5","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T18:27:31.5346592-03:00","Properties":{}}
+WARN  2017-02-24 18:27:39,253 [14   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 18:27:39,641 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"341b612a-a43e-4847-8309-4127e5890bda","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T18:27:39.6401241-03:00","Properties":{}}
+DEBUG 2017-02-24 18:27:39,725 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 341b612a-a43e-4847-8309-4127e5890bda
+DEBUG 2017-02-24 19:09:15,813 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:09:15,825 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:09:15,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:15,849 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:09:16,073 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:09:16,073 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:09:16,073 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:09:16,073 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:09:16,465 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:09:17,995 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:09:18,004 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:09:18,008 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:09:18,011 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:09:18,013 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:09:18,113 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:09:18,178 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:09:18,178 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:09:18,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:09:18,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:09:18,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:09:18,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:09:18,182 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:09:18,182 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:09:18,182 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:09:20,187 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:09:20,189 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:09:20,190 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:09:20,192 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-02-24 19:09:27,915 [12   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:09:28,524 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"747f6dd3-86e3-4f92-a34d-d74b73b7a6e2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:09:28.5169755-03:00","Properties":{}}
+DEBUG 2017-02-24 19:09:28,568 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 747f6dd3-86e3-4f92-a34d-d74b73b7a6e2
+ERROR 2017-02-24 19:09:31,705 [13   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:10:27,028 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:10:27,520 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:10:27,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:27,532 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:10:28,498 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:10:28,498 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:10:28,498 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:10:28,498 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:10:28,989 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:10:29,627 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:10:29,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:10:29,637 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:10:29,640 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:10:29,642 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:10:29,754 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:10:29,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:10:29,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:10:29,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:10:29,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:10:29,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:10:29,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:10:29,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:10:29,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:10:29,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:10:31,763 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:10:31,764 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:10:31,766 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:10:31,767 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 19:10:34,727 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"747f6dd3-86e3-4f92-a34d-d74b73b7a6e2","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:10:34.6680765-03:00","Properties":{}}
+WARN  2017-02-24 19:10:46,125 [11   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:10:46,537 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"411f0ac3-ea84-4535-b377-19f7ce3ba0be","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:10:46.5167544-03:00","Properties":{}}
+DEBUG 2017-02-24 19:10:46,585 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 411f0ac3-ea84-4535-b377-19f7ce3ba0be
+ERROR 2017-02-24 19:10:48,687 [14   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 19:13:10,555 [31   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:13:41,717 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:13:42,222 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:13:42,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:42,233 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:13:43,241 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:13:43,241 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:13:43,241 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:13:43,241 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:13:43,744 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:13:44,421 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:13:44,430 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:13:44,432 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:13:44,434 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:13:44,436 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:13:44,566 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:13:44,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:13:44,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:13:44,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:13:44,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:13:44,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:13:44,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:13:44,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:13:44,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:13:44,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:13:46,610 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:13:46,612 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:13:46,613 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:13:46,615 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 19:13:49,415 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"411f0ac3-ea84-4535-b377-19f7ce3ba0be","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:13:49.3650226-03:00","Properties":{}}
+DEBUG 2017-02-24 19:13:49,415 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"747f6dd3-86e3-4f92-a34d-d74b73b7a6e2","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:13:49.3650226-03:00","Properties":{}}
+WARN  2017-02-24 19:13:54,731 [12   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:13:55,148 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"14a96f9f-f0da-4597-b2f7-fd6ea2d81b94","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:13:55.148354-03:00","Properties":{}}
+DEBUG 2017-02-24 19:13:55,201 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 14a96f9f-f0da-4597-b2f7-fd6ea2d81b94
+ERROR 2017-02-24 19:14:44,650 [12   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 19:16:37,874 [21   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 19:16:42,834 [20   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:18:07,995 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:18:08,493 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:18:08,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:08,506 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:18:09,396 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:18:09,396 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:18:09,396 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:18:09,396 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:18:09,898 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:18:10,575 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:18:10,583 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:18:10,585 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:18:10,588 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:18:10,589 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:18:10,690 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:18:10,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:18:10,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:18:10,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:18:10,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:18:10,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:18:10,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:18:10,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:18:10,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:18:10,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:18:12,671 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:18:12,672 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:18:12,674 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:18:12,675 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 19:18:15,880 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"747f6dd3-86e3-4f92-a34d-d74b73b7a6e2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:18:15.8621939-03:00","Properties":{}}
+DEBUG 2017-02-24 19:18:15,880 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"411f0ac3-ea84-4535-b377-19f7ce3ba0be","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:18:15.857193-03:00","Properties":{}}
+WARN  2017-02-24 19:18:22,028 [13   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:18:22,857 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"517bce88-117f-4985-b15e-6acdcc54f49f","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:18:22.8575929-03:00","Properties":{}}
+DEBUG 2017-02-24 19:18:22,945 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 517bce88-117f-4985-b15e-6acdcc54f49f
+DEBUG 2017-02-24 19:27:01,232 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:27:02,124 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:27:02,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:02,139 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:27:03,799 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:27:03,799 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:27:03,799 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:27:03,799 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:27:04,472 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:27:05,503 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:27:05,578 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:27:05,586 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:27:05,590 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:27:05,593 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:27:05,746 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:27:05,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:27:05,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:27:05,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:27:05,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:27:05,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:27:05,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:27:05,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:27:05,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:27:05,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:27:08,068 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:27:08,069 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:27:08,070 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:27:08,072 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-02-24 19:27:19,186 [11   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:27:20,792 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b324f36c-4e08-4d2c-a80e-e1cd74fd5935","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:27:20.7739373-03:00","Properties":{}}
+DEBUG 2017-02-24 19:27:20,865 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b324f36c-4e08-4d2c-a80e-e1cd74fd5935
+ERROR 2017-02-24 19:27:26,186 [8    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:31:58,566 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:31:59,141 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:31:59,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:31:59,154 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:32:00,150 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:32:00,150 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:32:00,150 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:32:00,150 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:32:00,647 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:32:01,333 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:32:01,342 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:32:01,344 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:32:01,346 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:32:01,348 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:32:01,462 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:32:01,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:32:01,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:32:01,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:32:01,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:32:01,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:32:01,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:32:01,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:32:01,529 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:32:01,529 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:32:03,505 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:32:03,506 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:32:03,508 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:32:03,509 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 19:32:06,585 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"b324f36c-4e08-4d2c-a80e-e1cd74fd5935","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:32:06.5304669-03:00","Properties":{}}
+ERROR 2017-02-24 19:32:08,118 [10   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:32:13,208 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b324f36c-4e08-4d2c-a80e-e1cd74fd5935
+WARN  2017-02-24 19:32:16,642 [10   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:32:17,345 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"74b42bae-5224-40b8-b69a-8a0d7ea5fec4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:32:17.3450879-03:00","Properties":{}}
+DEBUG 2017-02-24 19:32:17,404 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 74b42bae-5224-40b8-b69a-8a0d7ea5fec4
+ERROR 2017-02-24 19:32:18,588 [16   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:44:52,686 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:44:52,699 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:44:52,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:52,713 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:44:52,949 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:44:52,949 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:44:52,949 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:44:52,949 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:44:53,399 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:44:55,515 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:44:55,525 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:44:55,528 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:44:55,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:44:55,532 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:44:55,646 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:44:55,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:44:55,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:44:55,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:44:55,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:44:55,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:44:55,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:44:55,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:44:55,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:44:55,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:44:57,880 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:44:57,882 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:44:57,883 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:44:57,885 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-02-24 19:45:08,487 [9    ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:45:09,463 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"727c2b18-191a-42a0-a637-4db5c8acb32b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:45:09.4359887-03:00","Properties":{}}
+DEBUG 2017-02-24 19:45:09,534 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 727c2b18-191a-42a0-a637-4db5c8acb32b
+ERROR 2017-02-24 19:45:16,747 [12   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 19:45:21,996 [9    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 19:45:31,442 [12   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 19:45:50,947 [11   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 19:46:30,158 [20   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:47:52,872 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:47:53,529 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:47:53,535 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:53,545 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:47:54,936 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:47:54,936 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:47:54,936 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:47:54,936 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:47:55,617 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:47:56,393 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:47:56,405 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:47:56,407 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:47:56,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:47:56,414 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:47:56,542 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:47:56,619 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:47:56,619 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:47:56,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:47:56,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:47:56,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:47:56,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:47:56,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:47:56,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:47:56,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:47:58,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:47:58,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:47:58,958 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:47:58,959 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 19:48:02,658 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"727c2b18-191a-42a0-a637-4db5c8acb32b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:48:02.5864578-03:00","Properties":{}}
+WARN  2017-02-24 19:48:05,205 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+WARN  2017-02-24 19:48:08,704 [11   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+WARN  2017-02-24 19:48:21,634 [10   ] ibrary.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at Project.Library.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in D:\Projetos\Visual Studio\Project.Library\Project.Library.Web\Controllers\AccountController.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Project.Library.Web.Controllers.AccountController.<Login>d__10.MoveNext() in D:\Projetos\Visual Studio\Project.Library\Project.Library.Web\Controllers\AccountController.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-02-24 19:48:35,564 [13   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:48:36,144 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"10389c4c-c35b-42f5-942e-c20c094c6fbf","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:48:36.1444661-03:00","Properties":{}}
+DEBUG 2017-02-24 19:48:36,183 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 10389c4c-c35b-42f5-942e-c20c094c6fbf
+ERROR 2017-02-24 19:48:45,272 [16   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 19:50:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:50:13,810 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:50:13,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:13,822 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:50:14,852 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:50:14,852 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:50:14,852 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:50:14,852 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:50:15,401 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:50:16,175 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:50:16,184 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:50:16,186 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:50:16,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:50:16,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:50:16,302 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:50:16,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:50:16,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:50:16,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:50:16,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:50:16,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:50:16,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:50:16,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:50:16,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:50:16,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:50:18,619 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:50:18,621 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:50:18,623 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:50:18,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-02-24 19:50:21,601 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: 10389c4c-c35b-42f5-942e-c20c094c6fbf
+ERROR 2017-02-24 19:50:21,601 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - O valor não recai no intervalo esperado.
+System.ArgumentException: O valor não recai no intervalo esperado.
+   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   em System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   em System.Web.HttpRequest.FillInServerVariablesCollection()
+   em System.Web.HttpServerVarsCollection.Populate()
+   em System.Web.HttpServerVarsCollection.Get(String name)
+   em Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   em Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient() na D:\Halil\Github\aspnetboilerplate\src\Abp.Web.SignalR\Web\SignalR\Hubs\AbpCommonHub.cs:linha 102
+DEBUG 2017-02-24 19:50:21,633 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"727c2b18-191a-42a0-a637-4db5c8acb32b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:50:21.601877-03:00","Properties":{}}
+DEBUG 2017-02-24 19:50:21,633 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"10389c4c-c35b-42f5-942e-c20c094c6fbf","IpAddress":"","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:50:21.6168785-03:00","Properties":{}}
+DEBUG 2017-02-24 19:55:19,122 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 19:55:19,135 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 19:55:19,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,144 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:19,147 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 19:55:19,446 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:55:19,446 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:55:19,446 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:55:19,446 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 19:55:20,023 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 19:55:21,761 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 19:55:21,772 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 19:55:21,777 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 19:55:21,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 19:55:21,782 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 19:55:21,936 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 19:55:22,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 19:55:22,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 19:55:22,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 19:55:22,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 19:55:22,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 19:55:22,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 19:55:22,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 19:55:22,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 19:55:22,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 19:55:24,137 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 19:55:24,139 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 19:55:24,140 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 19:55:24,142 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 19:55:24,808 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0b58c8cc-d722-45b2-8331-dc5ab5ae09ca","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:55:24.7890806-03:00","Properties":{}}
+WARN  2017-02-24 19:55:32,086 [9    ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 19:55:32,303 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3e2a9fe6-19a7-40ce-bc14-a3dc32909626","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T19:55:32.3025093-03:00","Properties":{}}
+DEBUG 2017-02-24 19:55:32,352 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3e2a9fe6-19a7-40ce-bc14-a3dc32909626
+ERROR 2017-02-24 19:55:35,429 [9    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 20:00:33,397 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 20:00:33,420 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 20:00:33,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:33,485 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 20:00:34,103 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:00:34,103 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:00:34,103 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:00:34,103 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:00:35,010 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:00:37,335 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 20:00:37,345 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 20:00:37,347 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 20:00:37,352 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 20:00:37,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 20:00:37,796 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 20:00:37,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 20:00:37,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 20:00:37,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 20:00:37,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 20:00:37,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 20:00:37,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 20:00:37,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 20:00:37,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 20:00:37,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 20:00:43,120 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 20:00:43,125 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 20:00:43,127 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 20:00:43,136 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 20:00:45,749 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b8bb2e7b-e896-402a-ae51-bfe99560eaf0","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:00:45.7063602-03:00","Properties":{}}
+DEBUG 2017-02-24 20:00:46,901 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"70a59344-ec46-4fb3-a6a0-cd7f170fe242","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:00:46.9014302-03:00","Properties":{}}
+WARN  2017-02-24 20:03:35,464 [13   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 20:03:36,537 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"402f2e24-4c31-40ad-a4c9-8b4738385821","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:03:36.5377611-03:00","Properties":{}}
+DEBUG 2017-02-24 20:03:36,607 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 402f2e24-4c31-40ad-a4c9-8b4738385821
+ERROR 2017-02-24 20:03:48,267 [20   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 20:04:46,488 [7    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 20:05:58,932 [14   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 20:06:03,977 [17   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-02-24 20:07:15,405 [3    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 20:08:09,202 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 20:08:09,779 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 20:08:09,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:09,791 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 20:08:11,151 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:08:11,151 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:08:11,151 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:08:11,151 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:08:11,720 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:08:12,451 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 20:08:12,464 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 20:08:12,467 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 20:08:12,471 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 20:08:12,473 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 20:08:12,589 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 20:08:12,668 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 20:08:12,668 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 20:08:12,674 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 20:08:12,674 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 20:08:12,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 20:08:12,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 20:08:12,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 20:08:12,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 20:08:12,675 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 20:08:14,851 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 20:08:14,853 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 20:08:14,855 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 20:08:14,856 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 20:08:18,015 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"b8bb2e7b-e896-402a-ae51-bfe99560eaf0","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:08:17.9789192-03:00","Properties":{}}
+ERROR 2017-02-24 20:08:18,020 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: 70a59344-ec46-4fb3-a6a0-cd7f170fe242
+ERROR 2017-02-24 20:08:18,020 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - O valor não recai no intervalo esperado.
+System.ArgumentException: O valor não recai no intervalo esperado.
+   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   em System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   em System.Web.HttpRequest.FillInServerVariablesCollection()
+   em System.Web.HttpServerVarsCollection.Populate()
+   em System.Web.HttpServerVarsCollection.Get(String name)
+   em Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   em Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient() na D:\Halil\Github\aspnetboilerplate\src\Abp.Web.SignalR\Web\SignalR\Hubs\AbpCommonHub.cs:linha 102
+DEBUG 2017-02-24 20:08:18,035 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"402f2e24-4c31-40ad-a4c9-8b4738385821","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:08:17.9779184-03:00","Properties":{}}
+DEBUG 2017-02-24 20:08:18,040 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"70a59344-ec46-4fb3-a6a0-cd7f170fe242","IpAddress":"","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:08:18.0409215-03:00","Properties":{}}
+DEBUG 2017-02-24 20:08:19,109 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 402f2e24-4c31-40ad-a4c9-8b4738385821
+WARN  2017-02-24 20:08:23,981 [13   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 20:08:24,279 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b104cf09-1d29-4a09-ba45-120253b19b0b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:08:24.2792795-03:00","Properties":{}}
+DEBUG 2017-02-24 20:08:24,365 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b104cf09-1d29-4a09-ba45-120253b19b0b
+ERROR 2017-02-24 20:08:29,449 [12   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 20:09:25,429 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 20:09:25,928 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 20:09:25,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:25,940 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 20:09:26,819 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:09:26,819 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:09:26,819 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:09:26,819 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:09:27,323 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:09:27,964 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 20:09:27,972 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 20:09:27,974 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 20:09:27,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 20:09:27,978 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 20:09:28,086 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 20:09:28,147 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 20:09:28,147 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 20:09:28,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 20:09:28,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 20:09:28,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 20:09:28,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 20:09:28,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 20:09:28,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 20:09:28,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 20:09:30,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 20:09:30,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 20:09:30,186 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 20:09:30,188 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-02-24 20:09:32,882 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: b104cf09-1d29-4a09-ba45-120253b19b0b
+ERROR 2017-02-24 20:09:32,882 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - O valor não recai no intervalo esperado.
+System.ArgumentException: O valor não recai no intervalo esperado.
+   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   em System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   em System.Web.HttpRequest.FillInServerVariablesCollection()
+   em System.Web.HttpServerVarsCollection.Populate()
+   em System.Web.HttpServerVarsCollection.Get(String name)
+   em Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   em Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   em Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient() na D:\Halil\Github\aspnetboilerplate\src\Abp.Web.SignalR\Web\SignalR\Hubs\AbpCommonHub.cs:linha 102
+DEBUG 2017-02-24 20:09:32,906 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"b8bb2e7b-e896-402a-ae51-bfe99560eaf0","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:09:32.8819131-03:00","Properties":{}}
+DEBUG 2017-02-24 20:09:32,906 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"b104cf09-1d29-4a09-ba45-120253b19b0b","IpAddress":"","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:09:32.8859132-03:00","Properties":{}}
+WARN  2017-02-24 20:09:37,840 [13   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 20:09:38,149 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ef4983a6-6ec6-43d6-99dd-e21b072899ee","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:09:38.1492149-03:00","Properties":{}}
+DEBUG 2017-02-24 20:09:38,228 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ef4983a6-6ec6-43d6-99dd-e21b072899ee
+ERROR 2017-02-24 20:09:40,161 [12   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-24 20:15:41,993 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-24 20:15:42,005 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-24 20:15:42,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Web.LibraryWebModule, Project.Library.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryDataModule, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryCoreModule, Project.Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.LibraryApplicationModule, Project.Library.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.Library.Api.LibraryWebApiModule, Project.Library.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:42,017 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-24 20:15:42,230 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:15:42,230 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:15:42,230 [1    ] o.Configuration.LanguageManagementConfig - Converted Library (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:15:42,230 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-24 20:15:42,613 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.Library.EntityFramework.LibraryDbContext, Project.Library.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-24 20:15:44,153 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-24 20:15:44,162 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-24 20:15:44,165 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-24 20:15:44,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Library
+DEBUG 2017-02-24 20:15:44,170 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-24 20:15:44,275 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-24 20:15:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-24 20:15:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-24 20:15:44,344 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-24 20:15:44,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.CreateUserInput
+DEBUG 2017-02-24 20:15:44,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Users.Dto.UserListDto
+DEBUG 2017-02-24 20:15:44,346 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-24 20:15:44,346 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-24 20:15:44,346 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Authors.Dtos.AuthorDto
+DEBUG 2017-02-24 20:15:44,346 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.Library.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-24 20:15:46,360 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-24 20:15:46,361 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-24 20:15:46,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-24 20:15:46,364 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.Library.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-24 20:15:47,042 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1dcad23f-7ab2-4ba6-8925-e76cc31342a9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:15:47.0237242-03:00","Properties":{}}
+DEBUG 2017-02-24 20:15:47,042 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f087f34f-5519-46ad-b4bd-2fe3078dca8b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:15:47.0237242-03:00","Properties":{}}
+WARN  2017-02-24 20:15:53,779 [10   ] Abp.Logging.LogHelper                    - Can not find 'Authors' in localization source 'Library'!
+DEBUG 2017-02-24 20:15:54,068 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6e714796-3647-4634-9544-c73ee2e19707","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-24T20:15:54.0671278-03:00","Properties":{}}
+DEBUG 2017-02-24 20:15:54,108 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6e714796-3647-4634-9544-c73ee2e19707
+ERROR 2017-02-24 20:15:59,102 [12   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+System.InvalidOperationException: The view '~/App/Main/viws/authors/index.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/viws/authors/index.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)

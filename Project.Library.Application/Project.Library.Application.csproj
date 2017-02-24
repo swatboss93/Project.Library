@@ -102,6 +102,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authors\AuhtorAppService.cs" />
     <Compile Include="Authors\Dtos\AuthorDto.cs" />
     <Compile Include="Authors\IAuthorAppService.cs" />
     <Compile Include="LibraryApplicationModule.cs" />

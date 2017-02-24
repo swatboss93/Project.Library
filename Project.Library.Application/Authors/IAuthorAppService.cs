@@ -8,10 +8,10 @@ namespace Project.Library.Authors
 {
     public interface IAuthorAppService : IApplicationService
     {
-        Task<Author> InsertNewaAuthor(AuthorDto input);
+        Task<Author> InsertNewAuthor(AuthorDto input);
         AuthorDto UpdateAuthor(AuthorDto input);
-        void DeleteAuthor(EntityRequestInput input);
+        void DeleteAuthor(EntityDto<Guid> input);
         Task<IListResult<AuthorDto>> GetAllAuthor();
-        AuthorDto GetDetail(EntityRequestInput<Guid> input);
+        AuthorDto GetDetail(EntityDto<Guid> input);
     }
 }
