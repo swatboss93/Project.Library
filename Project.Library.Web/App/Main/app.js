@@ -47,9 +47,8 @@
                 .state("authors",
                 {
                     url: '/authors',
-                    templateUrl: '/App/Main/viws/authors/index.cshtml',
+                    templateUrl: '/App/Main/views/authors/index.cshtml',
                     menu: 'Authors' 
-
                 })
                 .state('about', {
                     url: '/about',

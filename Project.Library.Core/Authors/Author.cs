@@ -17,7 +17,8 @@ namespace Project.Library.Authors
         [StringLength(120)]
         public virtual String LastName { get; set; }
 
-        [Required]
+        /*[DataType(DataType.Date)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]*/
         public virtual DateTime BirthDate  { get; set; }
 
         public int TenantId { get; set; }
@@ -26,6 +27,7 @@ namespace Project.Library.Authors
         {
             var author = new Author
             {
+                Id = Guid.NewGuid(),
                 FirstName = firstName,
                 LastName = lastName,
                 BirthDate = birthDate,

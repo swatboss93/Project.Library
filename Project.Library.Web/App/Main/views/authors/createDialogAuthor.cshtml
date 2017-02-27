@@ -1,0 +1,47 @@
+﻿<div>
+    <div class="modal-header bg-primary">
+        <h4 style="color: white">ADD AUTHOR</h4>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <label>First Name:</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" ng-model="ctrDialogAuthor.author.firstName" class="col-md-12" />
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <label>Last Name:</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" ng-model="ctrDialogAuthor.author.lastName" class="col-md-12" />
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <label>Birth date:</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" ng-model="ctrDialogAuthor.author.birthDate" class="col-md-12" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="pull-right">
+            <button type="button" class="btn bg-success pull-right" ng-click="ctrDialogAuthor.save();">
+                <span class="fa fa-plus" style="color: white">&nbsp;SAVE</span>
+            </button>
+        </div>
+        <div class="col-md-1 pull-right">
+            <button type="button" class="btn bg-warning pull-right" ng-click="ctrDialogAuthor.cancel();">
+                <span class="fa fa-times" style="color: white">&nbsp;CANCEL</span>
+            </button>
+        </div>
+    </div>
+</div>
