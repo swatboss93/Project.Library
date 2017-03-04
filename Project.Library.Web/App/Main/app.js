@@ -50,6 +50,18 @@
                     templateUrl: '/App/Main/views/authors/index.cshtml',
                     menu: 'Authors' 
                 })
+                .state("publishers",
+                {
+                    url: '/publishers',
+                    templateUrl: '/App/Main/views/publishers/index.cshtml',
+                    menu: 'Publishers'
+                })
+                .state("books",
+                {
+                    url: '/books',
+                    templateUrl: '/App/Main/views/books/index.cshtml',
+                    menu: 'Books'
+                })
                 .state('about', {
                     url: '/about',
                     templateUrl: '/App/Main/views/about/about.cshtml',

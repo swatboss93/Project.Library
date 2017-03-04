@@ -3,7 +3,9 @@ using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using Project.Library.Authorization.Roles;
 using Project.Library.Authors;
+using Project.Library.Books;
 using Project.Library.MultiTenancy;
+using Project.Library.Publishers;
 using Project.Library.Users;
 
 namespace Project.Library.EntityFramework
@@ -12,6 +14,8 @@ namespace Project.Library.EntityFramework
     {
         //TODO: Define an IDbSet for your Entities...
         public virtual IDbSet<Author> authors { get; set; }
+        public virtual IDbSet<Book> books { get; set; }
+        public virtual IDbSet<Publisher> publishers { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.

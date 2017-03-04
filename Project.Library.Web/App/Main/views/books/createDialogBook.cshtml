@@ -1,0 +1,65 @@
+﻿<div>
+    <div class="modal-header bg-primary">
+        <h4 style="color: white">ADD AUTHOR</h4>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <label>Title:</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" ng-model="ctrDialogBook.book.title" class="col-md-12" />
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <label>ISBN:</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" ng-model="ctrDialogBook.book.isbn" class="col-md-12" />
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label for="sel1">Select author:</label>
+                        </div>
+                        <div ng-if="ctrDialogBook.listAuthor.length > 0" class="col-md-6">
+                            <select class="form-control" ng-model="ctrDialogBook.book.author" ng-options="item.firstName for item in ctrDialogBook.listAuthor"></select>
+                        </div>
+                        <div ng-if="ctrDialogBook.listAuthor.length <= 0" class="col-md-12">
+                            <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> There's no authors registered</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label for="sel1">Select publisher:</label>
+                        </div>
+                        <div ng-if="ctrDialogBook.listPublisher.length > 0" class="col-md-6">
+                            <select class="form-control" ng-model="ctrDialogBook.book.publisher" ng-options="item.name for item in ctrDialogBook.listPublisher"></select>
+                        </div>
+                        <div ng-if="ctrDialogBook.listPublisher.length <= 0" class="col-md-12">
+                            <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> There's no publishers registered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="pull-right">
+            <button type="button" class="btn bg-success pull-right" ng-click="ctrDialogBook.save();">
+                <span class="fa fa-plus" style="color: white">&nbsp;SAVE</span>
+            </button>
+        </div>
+        <div class="col-md-1 pull-right">
+            <button type="button" class="btn bg-warning pull-right" ng-click="ctrDialogBook.cancel();">
+                <span class="fa fa-times" style="color: white">&nbsp;CANCEL</span>
+            </button>
+        </div>
+    </div>
+</div>

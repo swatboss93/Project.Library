@@ -47,6 +47,20 @@ namespace Project.Library.Web
                         )
                 ).AddItem(
                     new MenuItemDefinition(
+                        "Publishers",
+                        L("Publishers"),
+                        url: "#publishers",
+                        icon: "fa fa-users"
+                        )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Books",
+                        L("Books"),
+                        url: "#books",
+                        icon: "fa fa-users"
+                        )
+                ).AddItem(
+                    new MenuItemDefinition(
                         "About",
                         new LocalizableString("About", LibraryConsts.LocalizationSourceName),
                         url: "#/about",

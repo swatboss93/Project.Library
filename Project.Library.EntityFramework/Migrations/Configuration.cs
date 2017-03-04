@@ -12,7 +12,7 @@ namespace Project.Library.Migrations
 
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "Library";
         }
 

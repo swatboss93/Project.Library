@@ -128,6 +128,10 @@
     <Compile Include="Migrations\201702241431353_Create_Table_TwAuthor.Designer.cs">
       <DependentUpon>201702241431353_Create_Table_TwAuthor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703032103397_Create_Table_TwPublisher.cs" />
+    <Compile Include="Migrations\201703032103397_Create_Table_TwPublisher.Designer.cs">
+      <DependentUpon>201703032103397_Create_Table_TwPublisher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="LibraryDataModule.cs" />
@@ -156,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702241431353_Create_Table_TwAuthor.resx">
       <DependentUpon>201702241431353_Create_Table_TwAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703032103397_Create_Table_TwPublisher.resx">
+      <DependentUpon>201703032103397_Create_Table_TwPublisher.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
