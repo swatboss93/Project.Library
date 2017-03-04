@@ -7,4 +7,28 @@
             <span class="fa fa-plus" style="color: white">&nbsp;ADD AUTHOR</span>
         </button>
     </div>
+    <div class="col-md-12">
+        <table class="table-responsive">
+            <thead>
+            <tr>
+                <th>&nbsp;FIRST NAME</th>
+                <th>&nbsp;LAST NAME</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in vm.listAuthor">
+                    <td>&nbsp;{{item.firstName}}</td>
+                    <td>&nbsp;{{item.lastName}}</td>
+                    <td class="col-md-1">
+                        <a class="glyphicon glyphicon-pencil" ng-click="vm.openDialog(item, true);" title="EDIT"></a>
+                    </td>
+                    <td class="col-md-1">
+                        <a class="fa fa-trash text-danger" ng-click="vm.deleteAuthor(item);" title="DELETE"></a>
+                    </td>
+                </tr>
+            </tbody>         
+        </table>
+    </div>
 </div>

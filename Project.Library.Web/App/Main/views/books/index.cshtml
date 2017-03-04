@@ -1,0 +1,38 @@
+﻿<div ng-controller="app.views.books.index as vm">
+    <div>
+        <h4>BOOK REGISTER</h4>
+    </div>
+    <div class="form-group pull-right">
+        <button type="button" class="btn bg-primary pull-right" ng-click="vm.openDialog(false);">
+            <span class="fa fa-plus" style="color: white">&nbsp;ADD BOOK</span>
+        </button>
+    </div>
+    <div class="col-md-12">
+        <table class="table-responsive">
+            <thead>
+                <tr>
+                    <th>&nbsp;TITLE</th>
+                    <th>&nbsp;ISBN</th>
+                    <th>&nbsp;AUTHOR</th>
+                    <th>&nbsp;PUBLISHER</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in vm.listBook">
+                    <td>&nbsp;{{item.title}}</td>
+                    <td>&nbsp;{{item.isbn}}</td>
+                    <td>&nbsp;{{item.author.lastName}}</td>
+                    <td>&nbsp;{{item.publisher.name}}</td>
+                    <td class="col-md-1">
+                        <a class="glyphicon glyphicon-pencil" ng-click="vm.openDialog(item, true);" title="EDIT"></a>
+                    </td>
+                    <td class="col-md-1">
+                        <a class="fa fa-trash text-danger" ng-click="vm.deleteBook(item);" title="DELETE"></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

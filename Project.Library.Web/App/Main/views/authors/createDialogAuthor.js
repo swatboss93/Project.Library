@@ -8,13 +8,12 @@
                 id: undefined,
                 firstName: undefined,
                 lastName: undefined,
-                birthDate: undefined,
                 tenantId: undefined
             };
 
             vm.save = function () {
                 if (params.edit === true) {
-                    //Update
+                    vm.updateAuthor();
                 } else {
                     vm.createAuthor();
                 }
@@ -29,9 +28,38 @@
                 });
             };
 
+            vm.getAuthorDetail = function (item) {
+                var input = { id: item }
+                authorService.getDetail(input).success(function(data) {
+                    vm.author.id = data.id;
+                    vm.author.firstName = data.firstName;
+                    vm.author.lastName = data.lastName;
+                }).error(function(data) {
+                    abp.notify.error("Error loading author");
+                });
+            };
+
+            vm.updateAuthor = function() {
+                authorService.updateAuthor(vm.author).success(function(data) {
+                    abp.notify.success("Author successfully edited");
+                    $uibModalInstance.close(true);
+                }).error(function(data) {
+                    abp.notify.error("There was a problem editing the author");
+                });
+            };
+
             vm.cancel = function() {
                 $uibModalInstance.dismiss('cancel');
-            }
+            };
+
+            function init() {
+                
+                if (params.edit === true) {
+                    vm.getAuthorDetail(params.authorid);
+                }
+            };
+
+            init();
         }
     ]);        
 })();

@@ -1,0 +1,34 @@
+﻿<div ng-controller="app.views.publishers.index as vm">
+    <div>
+        <h4>PUBLISHER REGISTER</h4>
+    </div>
+    <div class="form-group pull-right">
+        <button type="button" class="btn bg-primary pull-right" ng-click="vm.openDialog(false);">
+            <span class="fa fa-plus" style="color: white">&nbsp;ADD PUBLISHER</span>
+        </button>
+    </div>
+    <div class="col-md-12">
+        <table class="table-responsive">
+            <thead>
+                <tr>
+                    <th>&nbsp;NAME</th>
+                    <th>&nbsp;ADDRESS</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in vm.listPublisher">
+                    <td>&nbsp;{{item.name}}</td>
+                    <td>&nbsp;{{item.address}}</td>
+                    <td class="col-md-1">
+                        <a class="glyphicon glyphicon-pencil" ng-click="vm.openDialog(item, true);" title="EDIT"></a>
+                    </td>
+                    <td class="col-md-1">
+                        <a class="fa fa-trash text-danger" ng-click="vm.deletePublisher(item);" title="DELETE"></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

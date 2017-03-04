@@ -4,11 +4,11 @@ using Abp.Domain.Repositories;
 
 namespace Project.Library.Authors
 {
-    public class PersonManage : IAuthorManage
+    public class AuthorManage : IAuthorManage
     {
         private readonly IRepository<Author, Guid> _authorRepository;
 
-        public PersonManage(IRepository<Author, Guid> authorRepository)
+        public AuthorManage(IRepository<Author, Guid> authorRepository)
         {
             _authorRepository = authorRepository;   
         }

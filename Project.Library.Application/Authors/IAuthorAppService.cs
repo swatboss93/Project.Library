@@ -9,7 +9,7 @@ namespace Project.Library.Authors
     public interface IAuthorAppService : IApplicationService
     {
         Task<Author> InsertNewAuthor(AuthorDto input);
-        AuthorDto UpdateAuthor(AuthorDto input);
+        AuthorDto UpdateAuthor(Author input);
         void DeleteAuthor(EntityDto<Guid> input);
         Task<IListResult<AuthorDto>> GetAllAuthor();
         AuthorDto GetDetail(EntityDto<Guid> input);
